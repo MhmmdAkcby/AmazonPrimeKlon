@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bottom_nav_menu">#FFFFFFFF</color>
+    <color name="prime_text_color">#1A98FF</color>
+    <color name="dwn_edit_btn_color">#5D6269</color>
+    <color name="btn_color">#F00F1B2E</color>
+</resources>

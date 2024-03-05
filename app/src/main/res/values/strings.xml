@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Prime Video</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_string">Home</string>
+    <string name="download_string">Download</string>
+    <string name="play">Play</string>
+    <string name="search_string">Search</string>
+    <string name="top_menu_all" translatable="true">All</string>
+    <string name="top_menu_movies">Movies</string>
+    <string name="top_menu_tv_movies">Tv Movies</string>
+    <string name="continue_watching">Continue watching   > </string>
+    <string name="prime_text">Prime</string>
+    <string name="download_toolbar_text">Downloads</string>
+    <string name="download_ly_tv">4 videos 10h 35min 13.6GB</string>
+    <string name="download_btn_text_edit">Edit</string>
+    <string name="download_btn_text_more">Download more videos</string>
+    <string name="auto_download">Auto Downloads:on .</string>
+    <string name="auto_download_manage">Manage</string>
+    <string name="trailer">Trailer</string>
+    <string name="watch_list">Watchlist</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="action_and_adventure">Action and adventure</string>
+    <string name="comedy">Comedy</string>
+    <string name="documentary">Documentary</string>
+    <string name="drama">Drama</string>
+    <string name="fantastic">Fantastic</string>
+    <string name="horror">Horror </string>
+    <string name="species">Species</string>
+    <string name="see_more">See more</string>
+    <string name="filter">Filter</string>
+    <string name="rcm">- Recommended for you  ></string>
+    <string name="rcm2">Recommended for you</string>
+    <string name="rcm3">- Action and adventure movies ></string>
+    <string name="rcm4">Action and adventure movies</string>
+    <string name="rcm5">Continue watching </string>
+    <string name="rcm6">- Fantasy movies  ></string>
+    <string name="rcm7">Fantasy movies</string>
+    <string name="rcm8">- Comedy movies  ></string>
+    <string name="rcm9">Comedy movies</string>
+    <string name="rcm10">- Military and war movies ></string>
+    <string name="rcm11">Military and war movies</string>
+</resources>

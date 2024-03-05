@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/sliderDetayGecis"
+            app:destination="@id/sliderDetailFragment" />
+        <action
+            android:id="@+id/movieListGecis"
+            app:destination="@id/movieListFragment" />
+        <action
+            android:id="@+id/movieList2Gecis"
+            app:destination="@id/movieList2Fragment" />
+        <action
+            android:id="@+id/movieList4Gecis"
+            app:destination="@id/movieList4Fragment" />
+        <action
+            android:id="@+id/movieList5Gecis"
+            app:destination="@id/movieList5Fragment" />
+        <action
+            android:id="@+id/movieList6Gecis"
+            app:destination="@id/movieList6Fragment" />
+        <action
+            android:id="@+id/movieList7Gecis"
+            app:destination="@id/movieList7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.DownloadFragment"
+        android:label="fragment_download"
+        tools:layout="@layout/fragment_download" >
+        <action
+            android:id="@+id/downloadGecis"
+            app:destination="@id/detailsOfDownloadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/detailsOfDownloadFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.DetailsOfDownloadFragment"
+        android:label="fragment_details_of_download"
+        tools:layout="@layout/fragment_details_of_download" >
+        <argument
+            android:name="downDetails"
+            app:argType="com.akcabeymuhammed.amazonprimeklon.data.entity.DownloadMovie" />
+    </fragment>
+    <fragment
+        android:id="@+id/sliderDetailFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.SliderDetailFragment"
+        android:label="fragment_slider_detail"
+        tools:layout="@layout/fragment_slider_detail" >
+        <argument
+            android:name="movie"
+            app:argType="com.akcabeymuhammed.amazonprimeklon.data.entity.Movies" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieListFragment"
+        android:label="fragment_movie_list"
+        tools:layout="@layout/fragment_movie_list" >
+        <argument
+            android:name="movieList"
+            app:argType="com.akcabeymuhammed.amazonprimeklon.data.entity.Movies" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieList2Fragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieList2Fragment"
+        android:label="fragment_movie_list2"
+        tools:layout="@layout/fragment_movie_list2" >
+        <argument
+            android:name="movieList2"
+            app:argType="com.akcabeymuhammed.amazonprimeklon.data.entity.Movies" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieList4Fragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieList4Fragment"
+        android:label="fragment_movie_list4"
+        tools:layout="@layout/fragment_movie_list4" />
+    <fragment
+        android:id="@+id/movieList5Fragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieList5Fragment"
+        android:label="fragment_movie_list5"
+        tools:layout="@layout/fragment_movie_list5" />
+    <fragment
+        android:id="@+id/movieList6Fragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieList6Fragment"
+        android:label="fragment_movie_list6"
+        tools:layout="@layout/fragment_movie_list6" />
+    <fragment
+        android:id="@+id/movieList7Fragment"
+        android:name="com.akcabeymuhammed.amazonprimeklon.ui.fragment.MovieList7Fragment"
+        android:label="fragment_movie_list7"
+        tools:layout="@layout/fragment_movie_list7" />
+</navigation>
